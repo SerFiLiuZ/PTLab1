@@ -9,7 +9,7 @@ class CalcRating:
         self.rating: RatingType = {}
 
     def calc(self) -> RatingType:
-        for key in self.d:
+        for key in self.data:
             self.rating[key] = 0.0
             for subject in self.data[key]:
                 self.rating[key] += subject[1]
