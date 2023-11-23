@@ -35,7 +35,8 @@
 >Anaconda3 23.7.2
 
 UML-диаграмма классов:
-![classes_uml (1)](https://github.com/SerFiLiuZ/TPLab1/assets/63652192/cf4b6218-bf93-4e9e-80af-eca889a83aab)
+![268113400-cf4b6218-bf93-4e9e-80af-eca889a83aab](https://github.com/SerFiLiuZ/PTLab1/assets/63652192/6b5c0883-1be7-4140-a122-28e10ef41298)
+
 
 UML-диаграмма классов для тестирования функционала:
 ![classes_uml (2)](https://github.com/SerFiLiuZ/TPLab1/assets/63652192/b7421c69-8e2c-4df7-a99b-41cea057161f)
