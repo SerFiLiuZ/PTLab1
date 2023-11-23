@@ -39,7 +39,8 @@ UML-диаграмма классов:
 
 
 UML-диаграмма классов для тестирования функционала:
-![classes_uml (2)](https://github.com/SerFiLiuZ/TPLab1/assets/63652192/b7421c69-8e2c-4df7-a99b-41cea057161f)
+![268115849-b7421c69-8e2c-4df7-a99b-41cea057161f](https://github.com/SerFiLiuZ/PTLab1/assets/63652192/3da10cfc-1263-417c-8a42-19181cd0092a)
+
 
 
 Выводы:
