@@ -2,9 +2,11 @@
 import argparse
 import sys
 
-from CalcRating import CalcRating
-from TextDataReader import TextDataReader
+# from CalcRating import CalcRating
+# from TextDataReader import TextDataReader
 
+from OneHundred import OneHundred
+from XMLDataReader import XMLDataReader
 
 def get_path_from_arguments(args) -> str:
     parser = argparse.ArgumentParser(description="Path to datafile")
@@ -19,12 +21,19 @@ def get_path_from_arguments(args) -> str:
 def main():
     path = get_path_from_arguments(sys.argv[1:])
 
-    reader = TextDataReader()
-    students = reader.read(path)
-    print("Students: ", students)
+    # reader = TextDataReader()
+    # students = reader.read(path)
+    # print("Students: ", students)
 
-    rating = CalcRating(students).calc()
-    print("Rating: ", rating)
+    # rating = CalcRating(students).calc()
+    # print("Rating: ", rating)
+
+    reader = XMLDataReader()
+    students = reader.read(path)
+    print(f'Students: {students}')
+
+    all_100 = OneHundred(students).find()
+    print(f'Student with 100 points: {all_100}')
 
 
 if __name__ == "__main__":
