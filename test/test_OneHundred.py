@@ -2,6 +2,7 @@ from src.OneHundred import OneHundred
 from src.Types import DataType
 import pytest
 
+
 class TestOneHundred:
 
     @pytest.fixture()
@@ -25,7 +26,7 @@ class TestOneHundred:
     def test_find_one_hundred(self, input_data: DataType) -> None:
         finder = OneHundred(input_data)
         result = finder.find()
-        assert result == "Студент1"  # Ожидаем, что найдется первый студент, у которого все оценки 100
+        assert result == "Студент1"
 
     def test_find_no_one_hundred(self, input_data: DataType) -> None:
         # Создаем данные, в которых нет студента с оценками 100
@@ -42,4 +43,4 @@ class TestOneHundred:
 
         finder = OneHundred(data_without_one_hundred)
         result = finder.find()
-        assert result is None  # Ожидаем, что не найдется студентов со всеми оценками 100
+        assert result is None
