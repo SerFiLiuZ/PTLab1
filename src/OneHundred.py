@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from Types import DataType
 
+
 class OneHundred:
     def __init__(self, data: DataType) -> None:
         self.data: DataType = data
