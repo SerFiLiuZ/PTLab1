@@ -8,6 +8,7 @@ import sys
 from OneHundred import OneHundred
 from XMLDataReader import XMLDataReader
 
+
 def get_path_from_arguments(args) -> str:
     parser = argparse.ArgumentParser(description="Path to datafile")
     parser.add_argument(
